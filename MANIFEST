@@ -1,0 +1,11 @@
+Build.PL
+Changes
+LICENSE
+MANIFEST
+META.json
+README
+dist.ini
+lib/String/Cluster/Hobohm.pm
+lib/String/Cluster/Hobohm/Types.pm
+t/basic.t
+t/release-pod-syntax.t
