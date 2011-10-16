@@ -1,7 +1,9 @@
 package String::Cluster::Hobohm::Types;
 {
-  $String::Cluster::Hobohm::Types::VERSION = '0.112880';
+  $String::Cluster::Hobohm::Types::VERSION = '0.112890';
 }
+use strict;
+use warnings;
 
 # ABSTRACT: Specific types for String::Cluster::Hobohm;
 
@@ -21,7 +23,7 @@ String::Cluster::Hobohm::Types - Specific types for String::Cluster::Hobohm;
 
 =head1 VERSION
 
-version 0.112880
+version 0.112890
 
 =head1 AUTHOR
 

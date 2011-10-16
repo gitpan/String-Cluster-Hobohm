@@ -1,11 +1,10 @@
 package String::Cluster::Hobohm;
 {
-  $String::Cluster::Hobohm::VERSION = '0.112880';
+  $String::Cluster::Hobohm::VERSION = '0.112890';
 }
 
 # ABSTRACT: Cluster strings using the Hobohm algorithm
 
-use v5.10.1;
 use strict;
 use warnings;
 
@@ -29,7 +28,7 @@ has similarity => ( is => 'ro', default => 0.62, isa => Quotient );
 
 sub cluster {
     my ($self, $sequences) = @_;
-    $sequences // croak "Need sequences as argument";
+    defined $sequences or croak "Need sequences as argument";
 
     my @clusters;
 
@@ -65,8 +64,8 @@ sub _similarity {
 
     my @seqs = map { $$_ } @_;
 
-    my $distance = Text::LevenshteinXS::distance(@seqs)
-      // croak "unable to compute distance";
+    my $distance = Text::LevenshteinXS::distance(@seqs);
+    defined $distance or croak "unable to compute distance";
 
     return 1 - $distance / length( $seqs[0] );
 }
@@ -83,7 +82,7 @@ String::Cluster::Hobohm - Cluster strings using the Hobohm algorithm
 
 =head1 VERSION
 
-version 0.112880
+version 0.112890
 
 =head1 SYNOPSIS
 

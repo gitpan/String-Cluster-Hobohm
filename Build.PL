@@ -19,7 +19,7 @@ my %module_build_args = (
     "Bruno Vecchi <vecchi.b gmail.com>"
   ],
   "dist_name" => "String-Cluster-Hobohm",
-  "dist_version" => "0.112880",
+  "dist_version" => "0.112890",
   "license" => "perl",
   "module_name" => "String::Cluster::Hobohm",
   "recommends" => {},
@@ -31,7 +31,6 @@ my %module_build_args = (
     "MouseX::Types::Mouse" => 0,
     "Text::LevenshteinXS" => 0,
     "namespace::autoclean" => 0,
-    "perl" => "v5.10.1",
     "strict" => 0,
     "warnings" => 0
   },

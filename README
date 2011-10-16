@@ -2,7 +2,7 @@ NAME
     String::Cluster::Hobohm - Cluster strings using the Hobohm algorithm
 
 VERSION
-    version 0.112880
+    version 0.112890
 
 SYNOPSIS
         use String::Cluster::Hobohm;

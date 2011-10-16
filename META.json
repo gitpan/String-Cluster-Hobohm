@@ -32,7 +32,6 @@
             "MouseX::Types::Mouse" : 0,
             "Text::LevenshteinXS" : 0,
             "namespace::autoclean" : 0,
-            "perl" : "v5.10.1",
             "strict" : 0,
             "warnings" : 0
          }
@@ -52,6 +51,6 @@
          "web" : "http://github.com/brunoV/String-Cluster-Hobohm"
       }
    },
-   "version" : "0.112880"
+   "version" : "0.112890"
 }
 
