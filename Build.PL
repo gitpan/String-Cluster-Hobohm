@@ -7,6 +7,7 @@ use Module::Build 0.3601;
 
 my %module_build_args = (
   "build_requires" => {
+    "Data::Dumper" => 0,
     "Module::Build" => "0.3601",
     "Test::Exception" => 0,
     "Test::More" => 0
@@ -19,7 +20,7 @@ my %module_build_args = (
     "Bruno Vecchi <vecchi.b gmail.com>"
   ],
   "dist_name" => "String-Cluster-Hobohm",
-  "dist_version" => "0.112890",
+  "dist_version" => "0.121330",
   "license" => "perl",
   "module_name" => "String::Cluster::Hobohm",
   "recommends" => {},

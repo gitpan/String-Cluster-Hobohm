@@ -8,4 +8,5 @@ dist.ini
 lib/String/Cluster/Hobohm.pm
 lib/String/Cluster/Hobohm/Types.pm
 t/basic.t
+t/empty_string.t
 t/release-pod-syntax.t

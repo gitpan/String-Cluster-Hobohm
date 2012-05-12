@@ -4,7 +4,7 @@
       "Bruno Vecchi <vecchi.b gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300002, CPAN::Meta::Converter version 2.112150",
+   "generated_by" : "Dist::Zilla version 4.300009, CPAN::Meta::Converter version 2.120630",
    "license" : [
       "perl_5"
    ],
@@ -26,20 +26,21 @@
       },
       "runtime" : {
          "requires" : {
-            "Carp" : 0,
-            "Mouse" : 0,
-            "MouseX::Types" : 0,
-            "MouseX::Types::Mouse" : 0,
-            "Text::LevenshteinXS" : 0,
-            "namespace::autoclean" : 0,
-            "strict" : 0,
-            "warnings" : 0
+            "Carp" : "0",
+            "Mouse" : "0",
+            "MouseX::Types" : "0",
+            "MouseX::Types::Mouse" : "0",
+            "Text::LevenshteinXS" : "0",
+            "namespace::autoclean" : "0",
+            "strict" : "0",
+            "warnings" : "0"
          }
       },
       "test" : {
          "requires" : {
-            "Test::Exception" : 0,
-            "Test::More" : 0
+            "Data::Dumper" : "0",
+            "Test::Exception" : "0",
+            "Test::More" : "0"
          }
       }
    },
@@ -51,6 +52,6 @@
          "web" : "http://github.com/brunoV/String-Cluster-Hobohm"
       }
    },
-   "version" : "0.112890"
+   "version" : "0.121330"
 }
 

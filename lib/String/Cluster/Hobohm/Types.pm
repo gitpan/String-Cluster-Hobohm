@@ -1,6 +1,6 @@
 package String::Cluster::Hobohm::Types;
 {
-  $String::Cluster::Hobohm::Types::VERSION = '0.112890';
+  $String::Cluster::Hobohm::Types::VERSION = '0.121330';
 }
 use strict;
 use warnings;
@@ -23,7 +23,7 @@ String::Cluster::Hobohm::Types - Specific types for String::Cluster::Hobohm;
 
 =head1 VERSION
 
-version 0.112890
+version 0.121330
 
 =head1 AUTHOR
 
@@ -31,7 +31,7 @@ Bruno Vecchi <vecchi.b gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2011 by Bruno Vecchi.
+This software is copyright (c) 2012 by Bruno Vecchi.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
