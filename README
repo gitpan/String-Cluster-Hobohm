@@ -2,14 +2,14 @@ NAME
     String::Cluster::Hobohm - Cluster strings using the Hobohm algorithm
 
 VERSION
-    version 0.121330
+    version 0.141020
 
 SYNOPSIS
         use String::Cluster::Hobohm;
 
         my @strings = qw(foo foa bar);
 
-        my $clusterer = String::Clusterer::Hobohm->new( similarity => 0.62 );
+        my $clusterer = String::Cluster::Hobohm->new( similarity => 0.62 );
 
         my $groups = $clusterer->cluster( \@strings );
 
@@ -20,8 +20,8 @@ SYNOPSIS
         # [ 'foo', 'bar' ];
 
 DESCRIPTION
-    String::Clusterer::Hobohm implements the Hobohm clustering algorithm
-    [1], originally devised to reduce redundancy of biological sequence data
+    String::Cluster::Hobohm implements the Hobohm clustering algorithm [1],
+    originally devised to reduce redundancy of biological sequence data
     sets.
 
     As a clustering algorithm, it takes a set of sequences, and returns them
@@ -65,7 +65,7 @@ AUTHOR
     Bruno Vecchi <vecchi.b gmail.com>
 
 COPYRIGHT AND LICENSE
-    This software is copyright (c) 2012 by Bruno Vecchi.
+    This software is copyright (c) 2014 by Bruno Vecchi.
 
     This is free software; you can redistribute it and/or modify it under
     the same terms as the Perl 5 programming language system itself.

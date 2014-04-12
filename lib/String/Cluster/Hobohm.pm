@@ -1,8 +1,5 @@
 package String::Cluster::Hobohm;
-{
-  $String::Cluster::Hobohm::VERSION = '0.121330';
-}
-
+$String::Cluster::Hobohm::VERSION = '0.141020';
 # ABSTRACT: Cluster strings using the Hobohm algorithm
 
 use strict;
@@ -12,7 +9,6 @@ use Mouse;
 use String::Cluster::Hobohm::Types 'Quotient';
 use Carp 'croak';
 use Text::LevenshteinXS;
-use namespace::autoclean;
 
 # accept a list of strings or a closure that returns, stepwise, the
 # strings (this prevents loading everything into memory in the case that
@@ -72,9 +68,11 @@ sub _similarity {
 
 __PACKAGE__->meta->make_immutable;
 
-
 __END__
+
 =pod
+
+=encoding UTF-8
 
 =head1 NAME
 
@@ -82,7 +80,7 @@ String::Cluster::Hobohm - Cluster strings using the Hobohm algorithm
 
 =head1 VERSION
 
-version 0.121330
+version 0.141020
 
 =head1 SYNOPSIS
 
@@ -90,7 +88,7 @@ version 0.121330
 
     my @strings = qw(foo foa bar);
 
-    my $clusterer = String::Clusterer::Hobohm->new( similarity => 0.62 );
+    my $clusterer = String::Cluster::Hobohm->new( similarity => 0.62 );
 
     my $groups = $clusterer->cluster( \@strings );
 
@@ -102,7 +100,7 @@ version 0.121330
 
 =head1 DESCRIPTION
 
-String::Clusterer::Hobohm implements the Hobohm clustering algorithm
+String::Cluster::Hobohm implements the Hobohm clustering algorithm
 [1], originally devised to reduce redundancy of biological sequence data
 sets.
 
@@ -153,10 +151,9 @@ Bruno Vecchi <vecchi.b gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2012 by Bruno Vecchi.
+This software is copyright (c) 2014 by Bruno Vecchi.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
